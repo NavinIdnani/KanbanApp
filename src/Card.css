@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+   .card {
+      width: 100%; /* Full width for smaller screens */
+   }
+}
+
+.card {
+   border: none;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+   margin-bottom: 10px;
+   background-color: #fff;
+   color: #333;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   .card {
+      width: 48%;
+   }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+   .card {
+      width: 31%;
+   }
+}
+
+.card-text {
+   color: #333;
+}
+
+.card-text .id {
+   color: #888;
+}
+.card-id {
+   color: rgb(141, 118, 118);
+}
+.card-text .title {
+   font-weight: bold;
+   font-size: 100px;
+   color: #333;
+}
+.card-body button {
+   background-color: #fff;
+   border: none;
+   padding: 10px;
+   margin-left: 50px;
+   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+select {
+   background-color: rgba(240, 240, 240, 0.8);
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   padding: 8px;
+   color: #333;
+   width: 100%;
+}
+
+select option {
+   background-color: #fff;
+   color: #333;
+}
+
+.card-priority {
+   font-weight: bold;
+}
+
+.priority-4 {
+   color: red;
+}
+
+.priority-3 {
+   color: orange;
+}
+
+.priority-2 {
+   color: blue;
+}
+
+.priority-1 {
+   color: green;
+}
+
+.priority-0 {
+   color: gray;
+}
